@@ -3,7 +3,12 @@
     font-family: Verdana, DejaVu Sans, sans-serif; 
 }
 
-.two {
+#two {
     color: #1337ed;
     font-size: 36px;
 }
+
+.three {
+    font-size: 24px;
+}
+
