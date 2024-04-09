@@ -5,7 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} 
 
 img {
   width: 600px;
@@ -24,4 +28,14 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header{
+  display: flex;
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+  padding: 10px;
 }
