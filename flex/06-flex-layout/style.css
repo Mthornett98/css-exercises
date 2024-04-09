@@ -39,3 +39,12 @@ input {
   display: flex;
   padding: 10px;
 }
+
+ul{
+  display: flex;
+}
+
+li{
+  padding: 10px;
+  list-style-type: none;
+}
