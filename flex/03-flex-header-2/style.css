@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -59,17 +59,10 @@ li {
   padding: 8px;
 }
 
-.right-items{
+.right-items, .left-items{
   display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
 }
 
 button{
   margin-right: 8px;
-}
-
-.left-items{
-  display:flex;
-  align-items: flex-start;
 }
