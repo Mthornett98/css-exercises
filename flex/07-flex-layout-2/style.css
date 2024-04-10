@@ -69,3 +69,7 @@ a{
   flex-wrap: wrap;
   padding: 32px;
 }
+
+li{
+ margin-bottom: 16px; 
+}
