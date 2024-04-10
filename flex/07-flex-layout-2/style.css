@@ -15,7 +15,6 @@ body {
   padding: 0 16px;
   display: flex;
   align-items: center;
-  flex-grow: 0;
 }
 
 .footer {
@@ -25,7 +24,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 0;
 }
 
 .sidebar { 
