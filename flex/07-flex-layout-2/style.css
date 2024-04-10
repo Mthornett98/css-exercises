@@ -43,7 +43,10 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  align-items: stretch;
+  margin: 16px;
+  width: 200px;
+  height: 200px;
+  flex-grow: 1;
 }
 
 .container{
@@ -63,8 +66,10 @@ a{
   font-size: 24px;
 }
 
-.container.card-contain{
+.card-contain{
   display: flex;
+  flex-grow: 1;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 32px;
 }
